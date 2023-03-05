@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css3?family=Montserrat:wght@100;500&display=swap');
+body, head {
+    font-family: Montserrat;
+    color: white;
+    background-color: #353535;
+    align-items: center;
+    text-shadow: 0px 0px 45px rgba(255, 255, 255, 0.8);
+}
+
+.center {
+        text-align: center; 
+}
+
+button {
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    margin: 0 auto;
+    display: block;
+    background-color: #0066ff;
+    transition: 0.5s;
+    color: #ffffff;
+    border: none;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 32px rgba(0, 102, 255, 0.8);
+}
+
+button:hover {
+    border-radius: 0.4em;
+    font-size: 1.7em;
+    margin: 0 auto;
+    display: block;
+    background-color: #003f9e;
+    transition: 0.5s;
+    box-shadow: 0px 0px 32px rgba(0, 63, 158, 0.8);
+}
+
+.small {
+    size: 0.5em;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    height: 2em;
+}
+
+.discord {
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    margin: 0 auto;
+    display: block;
+    background-color: #0044ff;
+    transition: 0.5s;
+    color: #ffffff;
+    border: none;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 32px #0044ffcc;
+    height: 2em;
+}
+
+.discord:hover {
+    border-radius: 0.4em;
+    font-size: 1.7em;
+    margin: 0 auto;
+    display: block;
+    background-color: #002a9e;
+    transition: 0.5s;
+    box-shadow: 0px 0px 32px #002a9ecc;
+}
+
+.youtube {
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    margin: 0 auto;
+    display: block;
+    background-color: #ff5151;
+    transition: 0.5s;
+    color: #ffffff;
+    border: none;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 32px #ff0000cc;
+    height: 2em;
+}
+
+.youtube:hover {
+    border-radius: 0.4em;
+    font-size: 1.7em;
+    margin: 0 auto;
+    display: block;
+    background-color: #9e0000;
+    transition: 0.5s;
+    box-shadow: 0px 0px 32px #9e0000cc;
+}
