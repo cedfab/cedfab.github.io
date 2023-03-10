@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css3?family=Montserrat:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
 body, head {
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     color: white;
     background-color: #353535;
     align-items: center;
@@ -8,26 +12,27 @@ body, head {
 }
 
 .center {
-        text-align: center; 
+    text-align: center; 
 }
 
-button {
+.button {
     border-radius: 0.2em;
     font-size: 1.5em;
-    margin: 0 auto;
+    margin: 0 27%;
+    padding: 0.5em;
+    text-align: center;
     display: block;
     background-color: #0066ff;
     transition: 0.5s;
     color: #ffffff;
     border: none;
-    font-family:Arial, Helvetica, sans-serif;
     box-shadow: 0px 0px 32px rgba(0, 102, 255, 0.8);
 }
 
-button:hover {
+.button:hover {
     border-radius: 0.4em;
     font-size: 1.7em;
-    margin: 0 auto;
+    margin: 0 26%;
     display: block;
     background-color: #003f9e;
     transition: 0.5s;
@@ -44,27 +49,23 @@ a {
 }
 
 img {
-    height: 2em;
+    height: 0.9em;
 }
 
 .discord {
     border-radius: 0.2em;
     font-size: 1.5em;
-    margin: 0 auto;
     display: block;
     background-color: #0044ff;
     transition: 0.5s;
     color: #ffffff;
     border: none;
-    font-family:Arial, Helvetica, sans-serif;
     box-shadow: 0px 0px 32px #0044ffcc;
-    height: 2em;
 }
 
 .discord:hover {
     border-radius: 0.4em;
     font-size: 1.7em;
-    margin: 0 auto;
     display: block;
     background-color: #002a9e;
     transition: 0.5s;
@@ -74,21 +75,17 @@ img {
 .youtube {
     border-radius: 0.2em;
     font-size: 1.5em;
-    margin: 0 auto;
     display: block;
-    background-color: #ff5151;
+    background-color: #ca0000;
     transition: 0.5s;
     color: #ffffff;
     border: none;
-    font-family:Arial, Helvetica, sans-serif;
     box-shadow: 0px 0px 32px #ff0000cc;
-    height: 2em;
 }
 
 .youtube:hover {
     border-radius: 0.4em;
     font-size: 1.7em;
-    margin: 0 auto;
     display: block;
     background-color: #9e0000;
     transition: 0.5s;
